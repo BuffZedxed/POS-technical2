@@ -17,15 +17,15 @@
                 <tr>
                     <th scope="col">Username</th>
                     <th scope="col">Full name</th>
-                    <th scope="col">Role</th>
+                    <th scope="col">Created At</th>
                 </tr>
             </thead>
             <tbody>
                 <?php foreach ($users as $user): ?>
                     <tr>
                         <td class="name-cell"><?= esc($user['username']) ?></td>
-                        <td><?= esc($user['name']) ?></td>
-                        <td><span class="role-label"><?= esc($user['role']) ?></span></td>
+                        <td><?= esc($user['full_name']) ?></td>
+                        <td><?= esc($user['created_at']) ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>

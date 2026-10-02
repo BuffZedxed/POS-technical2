@@ -1,20 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>POS System</title>
-</head>
-<body>
+<?= view('partials/header', ['pageTitle' => 'Home', 'activePage' => 'home']) ?>
 
+<section class="page-heading">
+    <p class="eyebrow">Welcome</p>
     <h1>Point-of-Sale System</h1>
+    <p class="lead">
+        Welcome to our basic POS system. Explore the account lists
+        or learn more about the project using the navigation above.
+    </p>
+</section>
 
-    <p>Welcome to our basic POS system.</p>
+<section class="card-grid" aria-label="Explore the POS system">
+    <article class="card">
+        <h2>Customer accounts</h2>
+        <p><a href="<?= site_url('customers') ?>">View customer contact details</a></p>
+    </article>
 
-    <h2>Navigation</h2>
+    <article class="card">
+        <h2>User accounts</h2>
+        <p><a href="<?= site_url('users') ?>">View users and their roles</a></p>
+    </article>
+</section>
 
-    <a href="/module1/">Home</a> |
-    <a href="/module1/about">About</a> |
-    <a href="/module1/customers">Customer Accounts</a> |
-    <a href="/module1/users">User Accounts</a>
-
-</body>
-</html>
+<?= view('partials/footer') ?>
