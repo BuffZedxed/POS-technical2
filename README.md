@@ -2,6 +2,16 @@
 
 A simple Point-of-Sale (POS) system created using **CodeIgniter 4** and **MySQL** for Laboratory Activity 2.
 
+## Hosted Application
+
+https://pos-technical2.rf.gd/
+
+https://pos-technical2.rf.gd/about
+
+https://pos-technical2.rf.gd/customers
+
+https://pos-technical2.rf.gd/users
+
 ## Features
 
 * Home page
@@ -52,10 +62,3 @@ The database export is included in:
 * HTML
 * CSS
 * XAMPP
-
-## Hosted Application
-
-https://pos-technical2.rf.gd/
-https://pos-technical2.rf.gd/about
-https://pos-technical2.rf.gd/customers
-https://pos-technical2.rf.gd/users
